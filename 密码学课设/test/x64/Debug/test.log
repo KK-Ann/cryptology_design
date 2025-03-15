@@ -1,0 +1,22 @@
+﻿  certificate.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  menu.cpp
+  main.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  PKI.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\密码学课设\密码学课设\test\PKI.cpp(52,85): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  RSA_base.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  正在生成代码...
+E:\computer_classes\信安\密码学课设\密码学课设\密码学课设\test\PKI.cpp(334): warning C4715: “PKI::VerifyMassage”: 不是所有的控件路径都返回值
+StaticLib2.lib(lip.obj) : warning LNK4099: 未找到 PDB“”(使用“StaticLib2.lib(lip.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+StaticLib2.lib(ZZ.obj) : warning LNK4099: 未找到 PDB“”(使用“StaticLib2.lib(ZZ.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+StaticLib2.lib(ctools.obj) : warning LNK4099: 未找到 PDB“”(使用“StaticLib2.lib(ctools.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+StaticLib2.lib(tools.obj) : warning LNK4099: 未找到 PDB“”(使用“StaticLib2.lib(tools.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+StaticLib2.lib(fileio.obj) : warning LNK4099: 未找到 PDB“”(使用“StaticLib2.lib(fileio.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+StaticLib2.lib(BasicThreadPool.obj) : warning LNK4099: 未找到 PDB“”(使用“StaticLib2.lib(BasicThreadPool.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+StaticLib2.lib(GetTime.obj) : warning LNK4099: 未找到 PDB“”(使用“StaticLib2.lib(GetTime.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+StaticLib2.lib(GetPID.obj) : warning LNK4099: 未找到 PDB“”(使用“StaticLib2.lib(GetPID.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+StaticLib2.lib(thread.obj) : warning LNK4099: 未找到 PDB“”(使用“StaticLib2.lib(thread.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+  test.vcxproj -> E:\computer_classes\信安\密码学课设\密码学课设\密码学课设\x64\Debug\test.exe

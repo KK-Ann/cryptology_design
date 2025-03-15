@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{440c7a95-b87a-4957-8658-17542e2c7a31}</ProjectGuid>
+    <RootNamespace>StaticLib2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\BasicThreadPool.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\ctools.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\FacVec.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\FFT.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\fileio.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\GetPID.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\GetTime.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\GF2.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\GF2E.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\GF2EX.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\GF2EXFactoring.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\GF2X.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\GF2X1.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\GF2XFactoring.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\GF2XVec.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\G_LLL_FP.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\G_LLL_QP.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\G_LLL_RR.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\G_LLL_XD.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\HNF.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\lip.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\LLL.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\LLL_FP.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\LLL_QP.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\LLL_RR.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\LLL_XD.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\lzz_p.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\lzz_pE.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\lzz_pEX.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\lzz_pEXFactoring.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\lzz_pX.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\lzz_pX1.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\lzz_pXCharPoly.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\lzz_pXFactoring.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\MatPrime.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\mat_GF2.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\mat_GF2E.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\mat_lzz_p.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\mat_lzz_pE.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\mat_poly_lzz_p.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\mat_poly_ZZ.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\mat_poly_ZZ_p.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\mat_RR.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\mat_ZZ.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\mat_ZZ_p.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\mat_ZZ_pE.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\pd_FFT.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\quad_float.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\quad_float1.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\RR.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\thread.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\tools.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\vec_GF2.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\vec_GF2E.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\vec_lzz_p.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\vec_lzz_pE.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\vec_RR.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\vec_ZZ.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\vec_ZZ_p.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\vec_ZZ_pE.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\WordVector.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\xdouble.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\ZZ.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\ZZVec.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\ZZX.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\ZZX1.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\ZZXCharPoly.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\ZZXFactoring.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\ZZ_p.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\ZZ_pE.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\ZZ_pEX.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\ZZ_pEXFactoring.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\ZZ_pX.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\ZZ_pX1.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\ZZ_pXCharPoly.cpp" />
+    <ClCompile Include="..\..\密码学课设\WinNTL-11_5_1\src\ZZ_pXFactoring.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StaticLib2.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

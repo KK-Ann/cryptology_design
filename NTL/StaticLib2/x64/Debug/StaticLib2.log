@@ -1,0 +1,189 @@
+﻿  pch.cpp
+  BasicThreadPool.cpp
+  ctools.cpp
+  FacVec.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  FFT.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  fileio.cpp
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\fileio.cpp(58,33): warning C4267: “参数”: 从“size_t”转换到“long”，可能丢失数据
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\fileio.cpp(59,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\fileio.cpp(118,4): warning C4244: “初始化”: 从“time_t”转换到“unsigned long”，可能丢失数据
+  GetPID.cpp
+  GetTime.cpp
+  GF2.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  GF2E.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  GF2EX.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  GF2EXFactoring.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  GF2X.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\GF2X.cpp(566,1): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\GF2X.cpp(585,1): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\GF2X.cpp(615,1): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\GF2X.cpp(643,1): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\GF2X.cpp(691,1): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  GF2X1.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  GF2XFactoring.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  GF2XVec.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  G_LLL_FP.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  G_LLL_QP.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  G_LLL_RR.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  G_LLL_XD.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  HNF.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  正在生成代码...
+  正在编译...
+  lip.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\lip.cpp(111,14): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\lip.cpp(538,11): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\lip.cpp(1751,7): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\lip.cpp(2227,18): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\lip.cpp(2915,29): warning C4101: “alias”: 未引用的局部变量
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\lip.cpp(3117,19): warning C4101: “alias”: 未引用的局部变量
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\lip.cpp(5462,16): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\lip.cpp(8337,37): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  LLL.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  LLL_FP.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  LLL_QP.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  LLL_RR.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  LLL_XD.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  lzz_p.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  lzz_pE.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  lzz_pEX.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  lzz_pEXFactoring.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  lzz_pX.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  lzz_pX1.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  lzz_pXCharPoly.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  lzz_pXFactoring.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  MatPrime.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\MatPrime.cpp(162,18): warning C4101: “w”: 未引用的局部变量
+  mat_GF2.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  mat_GF2E.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  mat_lzz_p.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  mat_lzz_pE.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  mat_poly_lzz_p.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  正在生成代码...
+  正在编译...
+  mat_poly_ZZ.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  mat_poly_ZZ_p.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  mat_RR.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  mat_ZZ.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  mat_ZZ_p.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  mat_ZZ_pE.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  pd_FFT.cpp
+  quad_float.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  quad_float1.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\quad_float1.cpp(78,11): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  RR.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  thread.cpp
+  tools.cpp
+  vec_GF2.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  vec_GF2E.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  vec_lzz_p.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\vec_lzz_p.cpp(10,9): warning C4101: “i”: 未引用的局部变量
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\vec_lzz_p.cpp(21,9): warning C4101: “i”: 未引用的局部变量
+  vec_lzz_pE.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  vec_RR.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  vec_ZZ.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  vec_ZZ_p.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  vec_ZZ_pE.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  正在生成代码...
+  正在编译...
+  WordVector.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  xdouble.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  ZZ.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\ZZ.cpp(383,11): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\ZZ.cpp(645,41): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\ZZ.cpp(649,52): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\ZZ.cpp(660,28): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\ZZ.cpp(851,12): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\ZZ.cpp(3466,59): warning C4267: “参数”: 从“size_t”转换到“long”，可能丢失数据
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\ZZ.cpp(3732,36): warning C4244: “=”: 从“unsigned long”转换到“unsigned char”，可能丢失数据
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\ZZ.cpp(3733,43): warning C4244: “=”: 从“unsigned long”转换到“unsigned char”，可能丢失数据
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\ZZ.cpp(3894,41): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\ZZ.cpp(3898,52): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\ZZ.cpp(3910,28): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  ZZVec.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  ZZX.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  ZZX1.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\ZZX1.cpp(1656,9): warning C4101: “i”: 未引用的局部变量
+  ZZXCharPoly.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  ZZXFactoring.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\ZZXFactoring.cpp(1279,41): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\ZZXFactoring.cpp(1281,41): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  ZZ_p.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  ZZ_pE.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  ZZ_pEX.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  ZZ_pEXFactoring.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  ZZ_pX.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+E:\computer_classes\信安\密码学课设\WinNTL-11_5_1\src\ZZ_pX.cpp(2244,15): warning C4101: “l”: 未引用的局部变量
+  ZZ_pX1.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  ZZ_pXCharPoly.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  ZZ_pXFactoring.cpp
+D:\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\NTL\lip.h(399,40): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  StaticLib2.cpp
+  正在生成代码...
+  StaticLib2.vcxproj -> E:\computer_classes\信安\StaticLib2\x64\Debug\StaticLib2.lib
